@@ -1,0 +1,1055 @@
+{
+  "welfare_analysis": {
+    "executive_summary": {
+      "total_scenarios_analyzed": 4,
+      "baseline_total_welfare": 1464550.278282038,
+      "best_scenario_welfare_gain": 31533.98382482794,
+      "optimal_carbon_price": 500.0
+    },
+    "baseline_analysis": {
+      "consumer_surplus": 1457082.7776237554,
+      "producer_surplus": 7467.500658282518,
+      "government_revenue": 0,
+      "deadweight_loss": 0,
+      "total_welfare": 1464550.278282038
+    },
+    "policy_scenarios": {
+      "carbon_pricing": {
+        "welfare_components": "WelfareComponents(consumer_surplus=-253971.45580428303, producer_surplus=-1088.3177337496218, government_revenue=286638.7400562863, deadweight_loss=44.982693425627815, total_welfare=31533.98382482794, distributional_impact={'low_income': -84657.15193476102, 'middle_income': -203177.16464342643, 'high_income': -634928.6395107076, 'gini_change': -0.39755351681957163}, regional_effects={'North_America': -1.186911770417605e-09, 'Europe': -1.3240962413566292e-09, 'Asia_Pacific': -3.1578048528707335e-10, 'China': -2.288344229776847e-09})",
+        "efficiency_metrics": {
+          "carbon_pricing": {
+            "net_benefit": 31533.98382482794,
+            "benefit_cost_ratio": Infinity,
+            "consumer_surplus_change": -253971.45580428303,
+            "producer_surplus_change": -1088.3177337496218,
+            "deadweight_loss": 44.982693425627815,
+            "distributional_progressivity": 0.13333333333333333,
+            "regional_balance": 0.6464175690423015,
+            "overall_efficiency_score": 0.6692835138084603
+          }
+        }
+      },
+      "trade_liberalization": {
+        "welfare_components": "WelfareComponents(consumer_surplus=0.0, producer_surplus=0.0, government_revenue=0.0, deadweight_loss=0.0, total_welfare=0.0, distributional_impact={'low_income': 0.0, 'middle_income': 0.0, 'high_income': 0.0, 'gini_change': 0.0}, regional_effects={'North_America': -1.186911770417605e-09, 'Europe': -1.3240962413566292e-09, 'Asia_Pacific': -3.1578048528707335e-10, 'China': -2.288344229776847e-09})",
+        "efficiency_metrics": {
+          "trade_liberalization": {
+            "net_benefit": 0.0,
+            "benefit_cost_ratio": 0,
+            "consumer_surplus_change": 0.0,
+            "producer_surplus_change": 0.0,
+            "deadweight_loss": 0.0,
+            "distributional_progressivity": 0.0,
+            "regional_balance": 0.6464175690423015,
+            "overall_efficiency_score": 0.12928351380846032
+          }
+        }
+      },
+      "tech_sovereignty": {
+        "welfare_components": "WelfareComponents(consumer_surplus=0.0, producer_surplus=0.0, government_revenue=0.0, deadweight_loss=0.0, total_welfare=0.0, distributional_impact={'low_income': 0.0, 'middle_income': 0.0, 'high_income': 0.0, 'gini_change': 0.0}, regional_effects={'North_America': -1.186911770417605e-09, 'Europe': -1.3240962413566292e-09, 'Asia_Pacific': -3.1578048528707335e-10, 'China': -2.288344229776847e-09})",
+        "efficiency_metrics": {
+          "tech_sovereignty": {
+            "net_benefit": 0.0,
+            "benefit_cost_ratio": 0,
+            "consumer_surplus_change": 0.0,
+            "producer_surplus_change": 0.0,
+            "deadweight_loss": 0.0,
+            "distributional_progressivity": 0.0,
+            "regional_balance": 0.6464175690423015,
+            "overall_efficiency_score": 0.12928351380846032
+          }
+        }
+      },
+      "green_transition": {
+        "welfare_components": "WelfareComponents(consumer_surplus=-341659.9777969015, producer_surplus=-1153.3788890596961, government_revenue=360281.08108108107, deadweight_loss=48.73116359602788, total_welfare=17418.993231524015, distributional_impact={'low_income': -113886.65926563385, 'middle_income': -273327.9822375212, 'high_income': -854149.9444922537, 'gini_change': -0.39755351681957196}, regional_effects={'North_America': -1.186911770417605e-09, 'Europe': -1.3240962413566292e-09, 'Asia_Pacific': -3.1578048528707335e-10, 'China': -2.288344229776847e-09})",
+        "efficiency_metrics": {
+          "green_transition": {
+            "net_benefit": 17418.993231524015,
+            "benefit_cost_ratio": Infinity,
+            "consumer_surplus_change": -341659.9777969015,
+            "producer_surplus_change": -1153.3788890596961,
+            "deadweight_loss": 48.73116359602788,
+            "distributional_progressivity": 0.13333333333333336,
+            "regional_balance": 0.6464175690423015,
+            "overall_efficiency_score": 0.6692835138084603
+          }
+        }
+      }
+    },
+    "optimal_policies": {
+      "highest_welfare": "carbon_pricing",
+      "most_progressive": "green_transition",
+      "optimal_carbon_price": 500.0
+    },
+    "recommendations": [
+      "Implement carbon_pricing scenario for maximum welfare gains of $0.0B annually",
+      "Implement gradual carbon price increases with revenue recycling to minimize distributional impacts",
+      "Coordinate international infrastructure investment to avoid regional imbalances and trade tensions"
+    ]
+  },
+  "supply_chain_vulnerability": {
+    "concentration_risk": {
+      "semiconductors": {
+        "hhi": 0.22148824934022768,
+        "top3_concentration": 0.6864249931185342,
+        "num_suppliers": 8,
+        "largest_supplier": "China",
+        "largest_supplier_share": 0.3831900514710125
+      },
+      "advanced_semiconductors": {
+        "hhi": 0.2270948209373017,
+        "top3_concentration": 0.6922788273084983,
+        "num_suppliers": 8,
+        "largest_supplier": "China",
+        "largest_supplier_share": 0.39315583517878444
+      },
+      "datacenter_equipment": {
+        "hhi": 0.22148824934022768,
+        "top3_concentration": 0.6864249931185342,
+        "num_suppliers": 8,
+        "largest_supplier": "China",
+        "largest_supplier_share": 0.3831900514710125
+      },
+      "renewable_energy_equipment": {
+        "hhi": 0.22709482093730177,
+        "top3_concentration": 0.6922788273084985,
+        "num_suppliers": 8,
+        "largest_supplier": "China",
+        "largest_supplier_share": 0.3931558351787845
+      },
+      "rare_earth_materials": {
+        "hhi": 0.2270948209373017,
+        "top3_concentration": 0.6922788273084983,
+        "num_suppliers": 8,
+        "largest_supplier": "China",
+        "largest_supplier_share": 0.39315583517878444
+      },
+      "optical_components": {
+        "hhi": 0.2270948209373017,
+        "top3_concentration": 0.6922788273084983,
+        "num_suppliers": 8,
+        "largest_supplier": "China",
+        "largest_supplier_share": 0.39315583517878444
+      }
+    },
+    "chokepoint_analysis": {
+      "critical_countries": {
+        "USA": {
+          "criticality_score": 0.2859804463084674,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.33995111577116854
+        },
+        "China": {
+          "criticality_score": 0.38650626787574255,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.5912656696893563
+        },
+        "Germany": {
+          "criticality_score": 0.26346564149659585,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.28366410374148965
+        },
+        "Japan": {
+          "criticality_score": 0.2686297985503291,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.2965744963758227
+        },
+        "South_Korea": {
+          "criticality_score": 0.22718098209406387,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.19295245523515966
+        },
+        "Taiwan": {
+          "criticality_score": 0.18602632230769667,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.09006580576924164
+        },
+        "Singapore": {
+          "criticality_score": 0.15761132244140708,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.019028306103517714
+        },
+        "Netherlands": {
+          "criticality_score": 0.22459921892569762,
+          "connectivity_impact": 0.25,
+          "trade_impact": 0.1864980473142441
+        }
+      },
+      "critical_trade_routes": {
+        "('USA', 'China')": {
+          "route_importance": 0.06972861164671738,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('USA', 'Germany')": {
+          "route_importance": 0.03031862649815463,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 3
+        },
+        "('USA', 'Japan')": {
+          "route_importance": 0.026867936497355627,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('USA', 'South_Korea')": {
+          "route_importance": 0.018493560403698574,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('USA', 'Taiwan')": {
+          "route_importance": 0.004136574842611372,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('USA', 'Singapore')": {
+          "route_importance": 0.0017520627038268579,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('USA', 'Netherlands')": {
+          "route_importance": 0.007905280943656768,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 3
+        },
+        "('China', 'USA')": {
+          "route_importance": 0.11151752532427248,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 3
+        },
+        "('China', 'Germany')": {
+          "route_importance": 0.036731803317012805,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 3
+        },
+        "('China', 'Japan')": {
+          "route_importance": 0.10880627670543114,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 2
+        },
+        "('China', 'South_Korea')": {
+          "route_importance": 0.06605904591301333,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 2
+        },
+        "('China', 'Taiwan')": {
+          "route_importance": 0.04752457138289281,
+          "critical_product_dependency": 1.327201308374072e+30,
+          "alternative_suppliers": 1
+        },
+        "('China', 'Singapore')": {
+          "route_importance": 0.008857016357486265,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 2
+        },
+        "('China', 'Netherlands')": {
+          "route_importance": 0.008837645578058875,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 3
+        },
+        "('Germany', 'USA')": {
+          "route_importance": 0.023897064764272537,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('Germany', 'China')": {
+          "route_importance": 0.01810277620677496,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Germany', 'Japan')": {
+          "route_importance": 0.004641495428600889,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Germany', 'South_Korea')": {
+          "route_importance": 0.001986344334999327,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Germany', 'Taiwan')": {
+          "route_importance": 0.0008600488593410149,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Germany', 'Singapore')": {
+          "route_importance": 0.0004262585977435747,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Germany', 'Netherlands')": {
+          "route_importance": 0.09199591971517333,
+          "critical_product_dependency": 2.563319514432476e+30,
+          "alternative_suppliers": 0
+        },
+        "('Japan', 'USA')": {
+          "route_importance": 0.02359321862370836,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('Japan', 'China')": {
+          "route_importance": 0.05974130742065057,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('Japan', 'Germany')": {
+          "route_importance": 0.005171014651047108,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('Japan', 'South_Korea')": {
+          "route_importance": 0.028747353747367196,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 2
+        },
+        "('Japan', 'Taiwan')": {
+          "route_importance": 0.00544004604496022,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('Japan', 'Singapore')": {
+          "route_importance": 0.002044298010669327,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('Japan', 'Netherlands')": {
+          "route_importance": 0.0012730566408371475,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('South_Korea', 'USA')": {
+          "route_importance": 0.013800863029358998,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('South_Korea', 'China')": {
+          "route_importance": 0.030823780763233815,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 5
+        },
+        "('South_Korea', 'Germany')": {
+          "route_importance": 0.0018806380291950565,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('South_Korea', 'Japan')": {
+          "route_importance": 0.024430407426014256,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('South_Korea', 'Taiwan')": {
+          "route_importance": 0.0028064497573736203,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 4
+        },
+        "('South_Korea', 'Singapore')": {
+          "route_importance": 0.0004504674141573878,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('South_Korea', 'Netherlands')": {
+          "route_importance": 0.0004599911858518807,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'USA')": {
+          "route_importance": 0.00262572414603431,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'China')": {
+          "route_importance": 0.018862285538216502,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'Germany')": {
+          "route_importance": 0.0006926220254960873,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'Japan')": {
+          "route_importance": 0.003932401999738554,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'South_Korea')": {
+          "route_importance": 0.0023871503206419308,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'Singapore')": {
+          "route_importance": 0.0002784987688979957,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Taiwan', 'Netherlands')": {
+          "route_importance": 0.00016849621444087835,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'USA')": {
+          "route_importance": 0.0007955025767942916,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'China')": {
+          "route_importance": 0.002514474798769033,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'Germany')": {
+          "route_importance": 0.00024554441483562667,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'Japan')": {
+          "route_importance": 0.0010570201661610048,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'South_Korea')": {
+          "route_importance": 0.0002740751187202254,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'Taiwan')": {
+          "route_importance": 0.00019920810950903368,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Singapore', 'Netherlands')": {
+          "route_importance": 5.926737720839774e-05,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Netherlands', 'USA')": {
+          "route_importance": 0.004518563770706315,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Netherlands', 'China')": {
+          "route_importance": 0.003158548736826461,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Netherlands', 'Germany')": {
+          "route_importance": 0.06671394689884265,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 2
+        },
+        "('Netherlands', 'Japan')": {
+          "route_importance": 0.0008286630132812684,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Netherlands', 'South_Korea')": {
+          "route_importance": 0.00035232779153409515,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Netherlands', 'Taiwan')": {
+          "route_importance": 0.00015172775908731836,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        },
+        "('Netherlands', 'Singapore')": {
+          "route_importance": 7.461168873869294e-05,
+          "critical_product_dependency": 0,
+          "alternative_suppliers": 6
+        }
+      },
+      "systemic_risk_score": 0.18035714285714285
+    },
+    "scenario_impacts": {
+      "trade_war": {
+        "overall_trade_impact": -0.5685330457361429,
+        "product_impacts": {
+          "semiconductors": -0.567716015255146,
+          "advanced_semiconductors": -0.5692989493991304,
+          "datacenter_equipment": -0.567716015255146,
+          "renewable_energy_equipment": -0.5692989493991305,
+          "rare_earth_materials": -0.5692989493991304,
+          "optical_components": -0.5692989493991304
+        },
+        "country_impacts": {
+          "USA": -0.5835325143502416,
+          "China": -0.6062670139017202,
+          "Germany": -0.5132477440400279,
+          "Japan": -0.513247744040028,
+          "South_Korea": -0.579506228345503,
+          "Taiwan": -0.6178132834091492,
+          "Singapore": -0.5132477440400278,
+          "Netherlands": -0.513247744040028
+        },
+        "most_affected_product": "renewable_energy_equipment",
+        "most_affected_country": "Taiwan"
+      },
+      "tech_restrictions": {
+        "overall_trade_impact": -0.6110021922406097,
+        "product_impacts": {
+          "semiconductors": -0.4842253178926366,
+          "advanced_semiconductors": -0.7908894959233144,
+          "datacenter_equipment": -0.4842253178926366,
+          "renewable_energy_equipment": -0.4856711535973864,
+          "rare_earth_materials": -0.4856711535973864,
+          "optical_components": -0.4856711535973864
+        },
+        "country_impacts": {
+          "USA": -0.6214156487596237,
+          "China": -0.6386379707184344,
+          "Germany": -0.5708268582696927,
+          "Japan": -0.5723697824480118,
+          "South_Korea": -0.617557667603794,
+          "Taiwan": -0.6445597600462492,
+          "Singapore": -0.5722118705554596,
+          "Netherlands": -0.5703469722378535
+        },
+        "most_affected_product": "advanced_semiconductors",
+        "most_affected_country": "Taiwan"
+      },
+      "supply_disruption": {
+        "overall_trade_impact": -0.13453238330897485,
+        "product_impacts": {
+          "semiconductors": -0.13368042505050415,
+          "advanced_semiconductors": -0.13533102909521133,
+          "datacenter_equipment": -0.13368042505050415,
+          "renewable_energy_equipment": -0.13533102909521164,
+          "rare_earth_materials": -0.13533102909521155,
+          "optical_components": -0.13533102909521155
+        },
+        "country_impacts": {
+          "USA": -0.15017307414692949,
+          "China": -0.17387946588577197,
+          "Germany": -0.07688365361336272,
+          "Japan": -0.07688365361336237,
+          "South_Korea": -0.14597466577357518,
+          "Taiwan": -0.18591933452002846,
+          "Singapore": -0.07688365361336301,
+          "Netherlands": -0.0768836536133625
+        },
+        "most_affected_product": "renewable_energy_equipment",
+        "most_affected_country": "Taiwan"
+      }
+    },
+    "resilience_metrics": {
+      "network_density": 1.0,
+      "clustering_coefficient": 1.0,
+      "centralization_score": 0.0,
+      "robustness_score": 1.0,
+      "diversification_score": 0.7747740362617229,
+      "overall_resilience": 0.9662161054392584
+    }
+  },
+  "comparative_advantages": {
+    "USA_semiconductors": {
+      "country": "USA",
+      "product": "semiconductors",
+      "rca_index": 0.9980742633928185,
+      "export_complexity": 0.8933333333333334,
+      "opportunity_cost": 0.0
+    },
+    "USA_advanced_semiconductors": {
+      "country": "USA",
+      "product": "advanced_semiconductors",
+      "rca_index": 1.0018052309622405,
+      "export_complexity": 0.8933333333333334,
+      "opportunity_cost": 0.006666666666666672
+    },
+    "USA_datacenter_equipment": {
+      "country": "USA",
+      "product": "datacenter_equipment",
+      "rca_index": 0.9980742633928185,
+      "export_complexity": 0.8933333333333334,
+      "opportunity_cost": 0.0
+    },
+    "USA_renewable_energy_equipment": {
+      "country": "USA",
+      "product": "renewable_energy_equipment",
+      "rca_index": 1.0018052309622405,
+      "export_complexity": 0.8933333333333334,
+      "opportunity_cost": 0.0
+    },
+    "USA_rare_earth_materials": {
+      "country": "USA",
+      "product": "rare_earth_materials",
+      "rca_index": 1.0018052309622405,
+      "export_complexity": 0.8933333333333334,
+      "opportunity_cost": 0.0
+    },
+    "USA_optical_components": {
+      "country": "USA",
+      "product": "optical_components",
+      "rca_index": 1.0018052309622405,
+      "export_complexity": 0.8933333333333334,
+      "opportunity_cost": 0.0
+    },
+    "China_semiconductors": {
+      "country": "China",
+      "product": "semiconductors",
+      "rca_index": 0.9867540966384055,
+      "export_complexity": 0.7066666666666667,
+      "opportunity_cost": 0.09333333333333334
+    },
+    "China_advanced_semiconductors": {
+      "country": "China",
+      "product": "advanced_semiconductors",
+      "rca_index": 1.012417022547118,
+      "export_complexity": 0.7066666666666667,
+      "opportunity_cost": 0.19333333333333333
+    },
+    "China_datacenter_equipment": {
+      "country": "China",
+      "product": "datacenter_equipment",
+      "rca_index": 0.9867540966384055,
+      "export_complexity": 0.7066666666666667,
+      "opportunity_cost": 0.043333333333333335
+    },
+    "China_renewable_energy_equipment": {
+      "country": "China",
+      "product": "renewable_energy_equipment",
+      "rca_index": 1.0124170225471176,
+      "export_complexity": 0.7066666666666667,
+      "opportunity_cost": 0.010000000000000009
+    },
+    "China_rare_earth_materials": {
+      "country": "China",
+      "product": "rare_earth_materials",
+      "rca_index": 1.0124170225471179,
+      "export_complexity": 0.7066666666666667,
+      "opportunity_cost": 0.0
+    },
+    "China_optical_components": {
+      "country": "China",
+      "product": "optical_components",
+      "rca_index": 1.0124170225471179,
+      "export_complexity": 0.7066666666666667,
+      "opportunity_cost": 0.05000000000000001
+    },
+    "Germany_semiconductors": {
+      "country": "Germany",
+      "product": "semiconductors",
+      "rca_index": 1.0171162297143008,
+      "export_complexity": 0.92,
+      "opportunity_cost": 0.0
+    },
+    "Germany_advanced_semiconductors": {
+      "country": "Germany",
+      "product": "advanced_semiconductors",
+      "rca_index": 0.983954842151399,
+      "export_complexity": 0.92,
+      "opportunity_cost": 0.009999999999999972
+    },
+    "Germany_datacenter_equipment": {
+      "country": "Germany",
+      "product": "datacenter_equipment",
+      "rca_index": 1.0171162297143008,
+      "export_complexity": 0.92,
+      "opportunity_cost": 0.0
+    },
+    "Germany_renewable_energy_equipment": {
+      "country": "Germany",
+      "product": "renewable_energy_equipment",
+      "rca_index": 0.9839548421513988,
+      "export_complexity": 0.92,
+      "opportunity_cost": 0.0
+    },
+    "Germany_rare_earth_materials": {
+      "country": "Germany",
+      "product": "rare_earth_materials",
+      "rca_index": 0.983954842151399,
+      "export_complexity": 0.92,
+      "opportunity_cost": 0.0
+    },
+    "Germany_optical_components": {
+      "country": "Germany",
+      "product": "optical_components",
+      "rca_index": 0.983954842151399,
+      "export_complexity": 0.92,
+      "opportunity_cost": 0.0
+    },
+    "Japan_semiconductors": {
+      "country": "Japan",
+      "product": "semiconductors",
+      "rca_index": 1.0052388290730505,
+      "export_complexity": 0.8833333333333333,
+      "opportunity_cost": 0.0
+    },
+    "Japan_advanced_semiconductors": {
+      "country": "Japan",
+      "product": "advanced_semiconductors",
+      "rca_index": 0.9950889979380976,
+      "export_complexity": 0.8833333333333333,
+      "opportunity_cost": 0.02999999999999999
+    },
+    "Japan_datacenter_equipment": {
+      "country": "Japan",
+      "product": "datacenter_equipment",
+      "rca_index": 1.0052388290730505,
+      "export_complexity": 0.8833333333333333,
+      "opportunity_cost": 0.0
+    },
+    "Japan_renewable_energy_equipment": {
+      "country": "Japan",
+      "product": "renewable_energy_equipment",
+      "rca_index": 0.9950889979380974,
+      "export_complexity": 0.8833333333333333,
+      "opportunity_cost": 0.0
+    },
+    "Japan_rare_earth_materials": {
+      "country": "Japan",
+      "product": "rare_earth_materials",
+      "rca_index": 0.9950889979380977,
+      "export_complexity": 0.8833333333333333,
+      "opportunity_cost": 0.0
+    },
+    "Japan_optical_components": {
+      "country": "Japan",
+      "product": "optical_components",
+      "rca_index": 0.9950889979380977,
+      "export_complexity": 0.8833333333333333,
+      "opportunity_cost": 0.0
+    },
+    "South_Korea_semiconductors": {
+      "country": "South_Korea",
+      "product": "semiconductors",
+      "rca_index": 1.0084860568361547,
+      "export_complexity": 0.86,
+      "opportunity_cost": 0.0
+    },
+    "South_Korea_advanced_semiconductors": {
+      "country": "South_Korea",
+      "product": "advanced_semiconductors",
+      "rca_index": 0.9920449699658721,
+      "export_complexity": 0.86,
+      "opportunity_cost": 0.043333333333333335
+    },
+    "South_Korea_datacenter_equipment": {
+      "country": "South_Korea",
+      "product": "datacenter_equipment",
+      "rca_index": 1.0084860568361547,
+      "export_complexity": 0.86,
+      "opportunity_cost": 0.0
+    },
+    "South_Korea_renewable_energy_equipment": {
+      "country": "South_Korea",
+      "product": "renewable_energy_equipment",
+      "rca_index": 0.9920449699658719,
+      "export_complexity": 0.86,
+      "opportunity_cost": 0.0
+    },
+    "South_Korea_rare_earth_materials": {
+      "country": "South_Korea",
+      "product": "rare_earth_materials",
+      "rca_index": 0.992044969965872,
+      "export_complexity": 0.86,
+      "opportunity_cost": 0.0
+    },
+    "South_Korea_optical_components": {
+      "country": "South_Korea",
+      "product": "optical_components",
+      "rca_index": 0.992044969965872,
+      "export_complexity": 0.86,
+      "opportunity_cost": 0.0
+    },
+    "Taiwan_semiconductors": {
+      "country": "Taiwan",
+      "product": "semiconductors",
+      "rca_index": 1.0040486894516352,
+      "export_complexity": 0.84,
+      "opportunity_cost": 0.0
+    },
+    "Taiwan_advanced_semiconductors": {
+      "country": "Taiwan",
+      "product": "advanced_semiconductors",
+      "rca_index": 0.9962046629184249,
+      "export_complexity": 0.84,
+      "opportunity_cost": 0.06000000000000002
+    },
+    "Taiwan_datacenter_equipment": {
+      "country": "Taiwan",
+      "product": "datacenter_equipment",
+      "rca_index": 1.0040486894516352,
+      "export_complexity": 0.84,
+      "opportunity_cost": 0.0
+    },
+    "Taiwan_renewable_energy_equipment": {
+      "country": "Taiwan",
+      "product": "renewable_energy_equipment",
+      "rca_index": 0.9962046629184248,
+      "export_complexity": 0.84,
+      "opportunity_cost": 0.0
+    },
+    "Taiwan_rare_earth_materials": {
+      "country": "Taiwan",
+      "product": "rare_earth_materials",
+      "rca_index": 0.9962046629184247,
+      "export_complexity": 0.84,
+      "opportunity_cost": 0.0
+    },
+    "Taiwan_optical_components": {
+      "country": "Taiwan",
+      "product": "optical_components",
+      "rca_index": 0.9962046629184247,
+      "export_complexity": 0.84,
+      "opportunity_cost": 0.0
+    },
+    "Singapore_semiconductors": {
+      "country": "Singapore",
+      "product": "semiconductors",
+      "rca_index": 1.006454431783942,
+      "export_complexity": 0.9133333333333334,
+      "opportunity_cost": 0.0
+    },
+    "Singapore_advanced_semiconductors": {
+      "country": "Singapore",
+      "product": "advanced_semiconductors",
+      "rca_index": 0.9939494632565109,
+      "export_complexity": 0.9133333333333334,
+      "opportunity_cost": 0.01999999999999998
+    },
+    "Singapore_datacenter_equipment": {
+      "country": "Singapore",
+      "product": "datacenter_equipment",
+      "rca_index": 1.006454431783942,
+      "export_complexity": 0.9133333333333334,
+      "opportunity_cost": 0.0
+    },
+    "Singapore_renewable_energy_equipment": {
+      "country": "Singapore",
+      "product": "renewable_energy_equipment",
+      "rca_index": 0.993949463256511,
+      "export_complexity": 0.9133333333333334,
+      "opportunity_cost": 0.0
+    },
+    "Singapore_rare_earth_materials": {
+      "country": "Singapore",
+      "product": "rare_earth_materials",
+      "rca_index": 0.9939494632565109,
+      "export_complexity": 0.9133333333333334,
+      "opportunity_cost": 0.0
+    },
+    "Singapore_optical_components": {
+      "country": "Singapore",
+      "product": "optical_components",
+      "rca_index": 0.9939494632565109,
+      "export_complexity": 0.9133333333333334,
+      "opportunity_cost": 0.0
+    },
+    "Netherlands_semiconductors": {
+      "country": "Netherlands",
+      "product": "semiconductors",
+      "rca_index": 1.0208103831551434,
+      "export_complexity": 0.9,
+      "opportunity_cost": 0.0
+    },
+    "Netherlands_advanced_semiconductors": {
+      "country": "Netherlands",
+      "product": "advanced_semiconductors",
+      "rca_index": 0.98049185549694,
+      "export_complexity": 0.9,
+      "opportunity_cost": 0.01999999999999998
+    },
+    "Netherlands_datacenter_equipment": {
+      "country": "Netherlands",
+      "product": "datacenter_equipment",
+      "rca_index": 1.0208103831551434,
+      "export_complexity": 0.9,
+      "opportunity_cost": 0.0
+    },
+    "Netherlands_renewable_energy_equipment": {
+      "country": "Netherlands",
+      "product": "renewable_energy_equipment",
+      "rca_index": 0.98049185549694,
+      "export_complexity": 0.9,
+      "opportunity_cost": 0.0
+    },
+    "Netherlands_rare_earth_materials": {
+      "country": "Netherlands",
+      "product": "rare_earth_materials",
+      "rca_index": 0.9804918554969401,
+      "export_complexity": 0.9,
+      "opportunity_cost": 0.0
+    },
+    "Netherlands_optical_components": {
+      "country": "Netherlands",
+      "product": "optical_components",
+      "rca_index": 0.9804918554969401,
+      "export_complexity": 0.9,
+      "opportunity_cost": 0.0
+    }
+  },
+  "trade_policy_recommendations": {
+    "multilateral_agreements": [],
+    "bilateral_initiatives": [
+      {
+        "type": "technology_partnership",
+        "partner_country": "Taiwan",
+        "product_focus": "semiconductors",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "South_Korea",
+        "product_focus": "semiconductors",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "Japan",
+        "product_focus": "semiconductors",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "Taiwan",
+        "product_focus": "advanced_semiconductors",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "South_Korea",
+        "product_focus": "advanced_semiconductors",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "Germany",
+        "product_focus": "renewable_energy_equipment",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "China",
+        "product_focus": "renewable_energy_equipment",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "USA",
+        "product_focus": "datacenter_equipment",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "China",
+        "product_focus": "datacenter_equipment",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      },
+      {
+        "type": "technology_partnership",
+        "partner_country": "Germany",
+        "product_focus": "datacenter_equipment",
+        "cooperation_areas": [
+          "R&D collaboration",
+          "supply chain integration",
+          "standards harmonization"
+        ]
+      }
+    ],
+    "unilateral_measures": [],
+    "investment_priorities": [],
+    "risk_assessments": {
+      "protectionist": {
+        "trade_impact": -0.7056628619852569,
+        "most_affected_sectors": [
+          "semiconductors",
+          "advanced_semiconductors",
+          "datacenter_equipment",
+          "renewable_energy_equipment",
+          "rare_earth_materials",
+          "optical_components"
+        ],
+        "policy_recommendation": "High-risk scenario: Consider graduated response rather than full protection"
+      },
+      "free_trade": {
+        "trade_impact": -0.22724943639991718,
+        "most_affected_sectors": [
+          "advanced_semiconductors"
+        ],
+        "policy_recommendation": "Mixed results: Combine trade liberalization with domestic support measures"
+      },
+      "selective_decoupling": {
+        "trade_impact": -0.6239268408043642,
+        "most_affected_sectors": [
+          "semiconductors",
+          "advanced_semiconductors",
+          "datacenter_equipment",
+          "renewable_energy_equipment",
+          "rare_earth_materials",
+          "optical_components"
+        ],
+        "policy_recommendation": "Feasible approach: Focus decoupling on truly critical technologies"
+      }
+    }
+  },
+  "resilience_optimization": {
+    "recommended_suppliers": {},
+    "diversification_strategy": {},
+    "risk_mitigation_measures": [
+      {
+        "type": "country_dependency_reduction",
+        "target_country": "China",
+        "criticality_score": 0.38650626787574255,
+        "recommendation": "Reduce dependency on China by developing alternative suppliers"
+      },
+      {
+        "type": "country_dependency_reduction",
+        "target_country": "USA",
+        "criticality_score": 0.2859804463084674,
+        "recommendation": "Reduce dependency on USA by developing alternative suppliers"
+      },
+      {
+        "type": "country_dependency_reduction",
+        "target_country": "Japan",
+        "criticality_score": 0.2686297985503291,
+        "recommendation": "Reduce dependency on Japan by developing alternative suppliers"
+      }
+    ],
+    "expected_resilience_improvement": 0.0
+  },
+  "analysis_timestamp": "2025-06-09T23:02:45.590779",
+  "simulation_metadata": {
+    "duration_months": 14,
+    "agents_analyzed": [
+      "google",
+      "amazon",
+      "microsoft",
+      "meta"
+    ],
+    "final_market_size": 862500000.0
+  }
+}
