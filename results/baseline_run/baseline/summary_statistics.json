@@ -1,0 +1,52 @@
+{
+  "market": {
+    "total_revenue_final": 862500000.0,
+    "total_costs_final": 345000000.0,
+    "average_demand_growth": 0.3428195875442388,
+    "average_shortage_level": 0.26999999999999996,
+    "final_carbon_price": 68.56510458083268,
+    "carbon_price_growth": -0.12262353527812364
+  },
+  "agents": {
+    "google": {
+      "final_cash_balance": 1350000000.0,
+      "total_revenue": 2250000000.0,
+      "total_costs": 900000000.0,
+      "profit_margin": 0.6,
+      "average_reputation": 1.0,
+      "final_capacity_mw": "2500",
+      "capacity_growth": 0.0,
+      "average_utilization": 0.75
+    },
+    "amazon": {
+      "final_cash_balance": 2160000000.0,
+      "total_revenue": 3600000000.0,
+      "total_costs": 1440000000.0,
+      "profit_margin": 0.6,
+      "average_reputation": 1.0,
+      "final_capacity_mw": "4000",
+      "capacity_growth": 0.0,
+      "average_utilization": 0.75
+    },
+    "microsoft": {
+      "final_cash_balance": 1728000000.0,
+      "total_revenue": 2880000000.0,
+      "total_costs": 1152000000.0,
+      "profit_margin": 0.6,
+      "average_reputation": 1.0,
+      "final_capacity_mw": "3200",
+      "capacity_growth": 0.0,
+      "average_utilization": 0.75
+    },
+    "meta": {
+      "final_cash_balance": 972000000.0,
+      "total_revenue": 1620000000.0,
+      "total_costs": 648000000.0,
+      "profit_margin": 0.6,
+      "average_reputation": 1.0,
+      "final_capacity_mw": "1800",
+      "capacity_growth": 0.0,
+      "average_utilization": 0.75
+    }
+  }
+}

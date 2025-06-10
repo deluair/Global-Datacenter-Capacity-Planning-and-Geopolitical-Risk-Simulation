@@ -1,0 +1,16 @@
+{
+  "carbon_pricing": {
+    "cost_correlation": NaN,
+    "price_elasticity": 0.08729146693708412,
+    "revenue_impact": "minimal"
+  },
+  "supply_chain": {
+    "revenue_correlation": NaN,
+    "disruption_severity": "moderate",
+    "recovery_pattern": "fast_recovery"
+  },
+  "geopolitical": {
+    "cost_impact": NaN,
+    "investment_deterrent": "limited"
+  }
+}
